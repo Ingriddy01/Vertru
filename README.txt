@@ -21,19 +21,21 @@ O projeto foi estruturado seguindo as melhores práticas do ecossistema Angular 
 
 A entrega foca na lógica central e nos componentes criados para o desafio, organizados sob a arquitetura recomendada do Angular:
 
-```text
-src/app/
+src/
+├── app/
+│   ├── components/
+│   │   └── suser-form/
+│   │       ├── suser-form.component.ts
+│   │       ├── suser-form.component.html
+│   │       └── suser-form.component.scss
+│   │
+│   ├── app.component.ts
+│   ├── app.component.html
+│   ├── app.config.ts
+│   └── app.routes.ts
 │
-├── models/
-│   └── user.model.ts              # Interfaces e tipagens (TypeScript)
-│
-├── services/
-│   ├── cep.service.ts             # Integração HTTP com a API ViaCEP
-│   └── user.service.ts            # Gerenciamento de estado dos dados salvos
-│
-└── components/
-    └── user-form/
-        ├── user-form.component.ts    # Lógica do componente (Standalone)
-        ├── user-form.component.html  # Interface estrutural (HTML)
-        ├── user-form.component.css   # Estilização e Grid Layout (CSS)
-        └── user-form.component.spec.ts # Testes unitários do formulário
+├── main.ts
+└── styles.scss
+
+angular.json
+package.json
