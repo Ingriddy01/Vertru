@@ -1,0 +1,43 @@
+.card-container {
+  max-width: 750px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+.grid-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.field label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #495057;
+}
+.button-container {
+  display: flex;
+  margin-top: 20px;
+}
+.button-container.backend-nav {
+  justify-content: flex-end;
+}
+.button-container.separation {
+  justify-content: space-between;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #dee2e6;
+  margin: 15px 0;
+}
