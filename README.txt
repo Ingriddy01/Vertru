@@ -24,18 +24,14 @@ A entrega foca na lógica central e nos componentes criados para o desafio, orga
 src/
 ├── app/
 │   ├── components/
-│   │   └── suser-form/
-│   │       ├── suser-form.component.ts
-│   │       ├── suser-form.component.html
-│   │       └── suser-form.component.scss
-│   │
+│   │   └── user-form/               <-- Corrigido de 'suser-form' para 'user-form'
+│   │       ├── user-form.component.ts
+│   │       ├── user-form.component.html
+│   │       ├── user-form.component.scss
+│   │       └── user-form.component.spec.ts <-- ADICIONE ESTE ARQUIVO DE TESTES!
 │   ├── app.component.ts
 │   ├── app.component.html
 │   ├── app.config.ts
 │   └── app.routes.ts
-│
 ├── main.ts
 └── styles.scss
-
-angular.json
-package.json
