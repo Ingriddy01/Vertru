@@ -16,7 +16,8 @@ import { ToastModule } from 'primeng/toast';
 @Component({
   selector: 'app-user-form',
   standalone: true,
-  imports: [
+  ...
+})
     CommonModule,
     ReactiveFormsModule,
     TabViewModule,
